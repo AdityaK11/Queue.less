@@ -53,13 +53,9 @@ class _HomePageState extends State<HomePage> {
             borderRadius: BorderRadius.all(Radius.circular(10.0))),
         title: new Text(
           'Are you sure?',
-          style:
-          TextStyle(color: HexColor('#172B4D'), fontFamily: 'Poppins'),
         ),
         content: new Text(
           'Do you want to exit the app',
-          style:
-          TextStyle(color: HexColor('#172B4D'), fontFamily: 'Poppins'),
         ),
         actions: <Widget>[
           new FlatButton(

@@ -22,8 +22,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
 
         brightness: Brightness.light,
-        primaryColor: Colors.blue,
-        accentColor: Colors.blueAccent,
 
         fontFamily: 'Poppins',
 
