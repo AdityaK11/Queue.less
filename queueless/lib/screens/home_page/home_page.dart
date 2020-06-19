@@ -63,7 +63,7 @@ class _HomePageState extends State<HomePage> {
             child: new Text(
               'No',
               style: TextStyle(
-                  color: HexColor('#E1544E'), fontFamily: 'Poppins'),
+                  color: Colors.indigoAccent),
             ),
           ),
           new FlatButton(
@@ -74,7 +74,7 @@ class _HomePageState extends State<HomePage> {
             child: new Text(
               'Yes',
               style: TextStyle(
-                  color: HexColor('#E1544E'), fontFamily: 'Poppins'),
+                  color: Colors.indigoAccent),
             ),
           ),
         ],
@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
               ),
             ],
             currentIndex: _selectedIndex,
-            selectedItemColor: HexColor('#E1544E'),
+            selectedItemColor: Colors.indigoAccent,
             onTap: _onItemTapped,
           ),
         ),
