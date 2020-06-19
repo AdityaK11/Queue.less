@@ -8,6 +8,10 @@ class PaymentsPage extends StatefulWidget {
 class _PaymentsPageState extends State<PaymentsPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return SafeArea(
+      child: Scaffold(
+        body: Center(child: Text('Payments Page')),
+      ),
+    );
   }
 }
