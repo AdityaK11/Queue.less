@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "825879543949",
+    "firebase_url": "https://queueless-c15f4.firebaseio.com",
+    "project_id": "queueless-c15f4",
+    "storage_bucket": "queueless-c15f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825879543949:android:6f8724846762b918daa2c4",
+        "android_client_info": {
+          "package_name": "com.astansia.queueless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825879543949-fqclthn65l5v66stph43i3t007bdkg6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.astansia.queueless",
+            "certificate_hash": "106005650eaf2254da1feef489904658d17569b2"
+          }
+        },
+        {
+          "client_id": "825879543949-utueaqdcs64rk9trua2a2id176t1d91t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAawWj487vO_pNwxHgav-pmV-08-aS5aSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825879543949-utueaqdcs64rk9trua2a2id176t1d91t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
