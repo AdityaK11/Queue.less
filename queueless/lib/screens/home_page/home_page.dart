@@ -96,8 +96,8 @@ class _HomePageState extends State<HomePage> {
           body: IndexedStack(
             children: <Widget>[
               homeFragment,
-              profileFragment,
-              yourOrdersFragment
+              yourOrdersFragment,
+              profileFragment
             ],
             index: _stackIndex,
           ),
