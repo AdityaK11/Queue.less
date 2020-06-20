@@ -8,9 +8,9 @@ class OrderDetailsPage extends StatefulWidget {
 class _OrderDetailsPageState extends State<OrderDetailsPage> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: Center(child: Text('Order Details Page')),
+    return Scaffold(
+      body:Center(
+        child: Text('this is the order details page!'),
       ),
     );
   }

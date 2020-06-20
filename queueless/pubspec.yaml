@@ -23,6 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  intl: ^0.16.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -46,7 +47,8 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/
+    - assets/images/google.png
+    - assets/images/store.jpg
 
   fonts:
     - family: Poppins
