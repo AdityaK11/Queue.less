@@ -21,7 +21,7 @@ class _HomeFragmentState extends State<HomeFragment> {
                 padding: const EdgeInsets.fromLTRB(16, 40, 16, 0),
                 child: Text(
                   'What stuff are you looking for?',
-                  style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
               ),
               SizedBox(
@@ -32,23 +32,24 @@ class _HomeFragmentState extends State<HomeFragment> {
                     const EdgeInsets.symmetric(vertical: 0, horizontal: 16),
                 child: Container(
                   decoration: ShapeDecoration(
-                    color: Color(0xFFF2F2F2),
+                    color: Colors.grey[200],
                     shape: StadiumBorder(),
                   ),
                   child: Row(
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.all(16.0),
                         child: Icon(EvaIcons.searchOutline),
                       ),
                       Expanded(
                         child: TextField(
+                          cursorColor: Colors.indigo,
                           decoration: new InputDecoration.collapsed(
-                            hintText: 'Search Pokemon',
+                            hintText: 'Search Random, Random etc',
                           ),
                           style: TextStyle(
                             fontFamily: 'Poppins',
-                            fontSize: 13,
+                            fontSize: 16,
                           ),
                         ),
                       )
@@ -67,24 +68,24 @@ class _HomeFragmentState extends State<HomeFragment> {
                         children: <Widget>[
                           Expanded(
                             child: Container(
-                              margin: EdgeInsets.only(left: 16, right: 4),
+                              margin: EdgeInsets.only(left: 16, bottom: 12),
                               child: Card(
-                                elevation: 10,
+                                elevation: 8,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 child: Container(
                                   padding: EdgeInsets.symmetric(
-                                      vertical: 8, horizontal: 0),
+                                      vertical: 12, horizontal: 0),
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(8.0),
-                                    color: Colors.indigoAccent,
+                                    color: Colors.indigo,
                                   ),
                                   child: Center(
                                       child: const Text(
                                     "Random",
                                     style: TextStyle(
-                                      fontSize: 20,
+                                      fontSize: 18,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.white,
                                     ),
@@ -95,24 +96,25 @@ class _HomeFragmentState extends State<HomeFragment> {
                           ),
                           Expanded(
                             child: Container(
-                              margin: EdgeInsets.only(left: 4, right: 16),
+                              margin: EdgeInsets.only(
+                                  bottom: 12, right: 16, left: 4),
                               child: Card(
-                                elevation: 10,
+                                elevation: 8,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 child: Container(
                                   padding: EdgeInsets.symmetric(
-                                      vertical: 8, horizontal: 0),
+                                      vertical: 12, horizontal: 0),
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(8.0),
-                                    color: Colors.indigoAccent,
+                                    color: Colors.indigo,
                                   ),
                                   child: Center(
                                       child: const Text(
                                     "Random",
                                     style: TextStyle(
-                                      fontSize: 20,
+                                      fontSize: 18,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.white,
                                     ),
@@ -127,24 +129,24 @@ class _HomeFragmentState extends State<HomeFragment> {
                         children: <Widget>[
                           Expanded(
                             child: Container(
-                              margin: EdgeInsets.only(left: 16, right: 4),
+                              margin: EdgeInsets.only(left: 16, bottom: 12),
                               child: Card(
-                                elevation: 10,
+                                elevation: 8,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 child: Container(
                                   padding: EdgeInsets.symmetric(
-                                      vertical: 8, horizontal: 0),
+                                      vertical: 12, horizontal: 0),
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(8.0),
-                                    color: Colors.indigoAccent,
+                                    color: Colors.indigo,
                                   ),
                                   child: Center(
                                       child: const Text(
                                     "Random",
                                     style: TextStyle(
-                                      fontSize: 20,
+                                      fontSize: 18,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.white,
                                     ),
@@ -155,24 +157,25 @@ class _HomeFragmentState extends State<HomeFragment> {
                           ),
                           Expanded(
                             child: Container(
-                              margin: EdgeInsets.only(left: 4, right: 16),
+                              margin: EdgeInsets.only(
+                                  bottom: 12, right: 16, left: 4),
                               child: Card(
-                                elevation: 10,
+                                elevation: 8,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 child: Container(
                                   padding: EdgeInsets.symmetric(
-                                      vertical: 8, horizontal: 0),
+                                      vertical: 12, horizontal: 0),
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(8.0),
-                                    color: Colors.indigoAccent,
+                                    color: Colors.indigo,
                                   ),
                                   child: Center(
                                       child: const Text(
                                     "Random",
                                     style: TextStyle(
-                                      fontSize: 20,
+                                      fontSize: 18,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.white,
                                     ),
@@ -187,24 +190,24 @@ class _HomeFragmentState extends State<HomeFragment> {
                         children: <Widget>[
                           Expanded(
                             child: Container(
-                              margin: EdgeInsets.only(left: 16, right: 4),
+                              margin: EdgeInsets.only(left: 16, bottom: 12),
                               child: Card(
-                                elevation: 10,
+                                elevation: 8,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 child: Container(
                                   padding: EdgeInsets.symmetric(
-                                      vertical: 8, horizontal: 0),
+                                      vertical: 12, horizontal: 0),
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(8.0),
-                                    color: Colors.indigoAccent,
+                                    color: Colors.indigo,
                                   ),
                                   child: Center(
                                       child: const Text(
                                     "Random",
                                     style: TextStyle(
-                                      fontSize: 20,
+                                      fontSize: 18,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.white,
                                     ),
@@ -215,24 +218,25 @@ class _HomeFragmentState extends State<HomeFragment> {
                           ),
                           Expanded(
                             child: Container(
-                              margin: EdgeInsets.only(left: 4, right: 16),
+                              margin: EdgeInsets.only(
+                                  bottom: 12, right: 16, left: 4),
                               child: Card(
-                                elevation: 10,
+                                elevation: 8,
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 child: Container(
                                   padding: EdgeInsets.symmetric(
-                                      vertical: 8, horizontal: 0),
+                                      vertical: 12, horizontal: 0),
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(8.0),
-                                    color: Colors.indigoAccent,
+                                    color: Colors.indigo,
                                   ),
                                   child: Center(
                                       child: const Text(
                                     "Random",
                                     style: TextStyle(
-                                      fontSize: 20,
+                                      fontSize: 18,
                                       fontWeight: FontWeight.bold,
                                       color: Colors.white,
                                     ),
@@ -243,45 +247,33 @@ class _HomeFragmentState extends State<HomeFragment> {
                           ),
                         ],
                       ),
-                      Text(
-                        'Queue.less',
-                        style: TextStyle(
-                            fontSize: 32, fontWeight: FontWeight.bold),
+                      SizedBox(
+                        height: 24,
                       ),
                       Text(
-                        'Queue.less',
+                        'Recommended for you',
                         style: TextStyle(
-                            fontSize: 32, fontWeight: FontWeight.bold),
+                            fontSize: 24, fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        'Queue.less',
+                        'Random',
                         style: TextStyle(
-                            fontSize: 32, fontWeight: FontWeight.bold),
+                            fontSize: 24, fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        'Queue.less',
+                        'Random',
                         style: TextStyle(
-                            fontSize: 32, fontWeight: FontWeight.bold),
+                            fontSize: 24, fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        'Queue.less',
+                        'Random',
                         style: TextStyle(
-                            fontSize: 32, fontWeight: FontWeight.bold),
+                            fontSize: 24, fontWeight: FontWeight.bold),
                       ),
                       Text(
-                        'Queue.less',
+                        'Random',
                         style: TextStyle(
-                            fontSize: 32, fontWeight: FontWeight.bold),
-                      ),
-                      Text(
-                        'Queue.less',
-                        style: TextStyle(
-                            fontSize: 32, fontWeight: FontWeight.bold),
-                      ),
-                      Text(
-                        'Queue.less',
-                        style: TextStyle(
-                            fontSize: 32, fontWeight: FontWeight.bold),
+                            fontSize: 24, fontWeight: FontWeight.bold),
                       ),
                     ],
                   ),
