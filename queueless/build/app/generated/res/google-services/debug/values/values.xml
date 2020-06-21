@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">825879543949-utueaqdcs64rk9trua2a2id176t1d91t.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://queueless-c15f4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">825879543949</string>
+    <string name="google_api_key" translatable="false">AIzaSyAawWj487vO_pNwxHgav-pmV-08-aS5aSY</string>
+    <string name="google_app_id" translatable="false">1:825879543949:android:6f8724846762b918daa2c4</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAawWj487vO_pNwxHgav-pmV-08-aS5aSY</string>
+    <string name="google_storage_bucket" translatable="false">queueless-c15f4.appspot.com</string>
+    <string name="project_id" translatable="false">queueless-c15f4</string>
+</resources>

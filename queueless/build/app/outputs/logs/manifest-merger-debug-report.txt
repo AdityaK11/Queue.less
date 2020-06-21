@@ -1,0 +1,135 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:1:1-47:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:1:1-47:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\a7e80ada1653544e3c54a57d4677af7a\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\d666021c2157e78f4964020cb90e2acb\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ff3ccb31f4df291375de462f1e521d98\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\dea8bfb453b8fd887799972b8d776909\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\890eb7f36bf83c7d9e99c33658d412de\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\0a88e15c27fe8f45486868f55d363bed\core-1.1.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\96ae7b809342492cd4828827073cb152\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\89296b996329c4d60a0b372b563f77bf\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\6e9201a4f5b5fbe9ec33d3d731a410c9\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\16ca23f20530544a8f9e4f6b65379b7b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\c6d7e24e5aa09c9f08d37228d92c22be\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ffc87729ce788885345ff344302c6fd4\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\5e38ca2bd39f563dc72554fcc9d44a6a\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:2:5-37
+		INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:8:5-46:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\0a88e15c27fe8f45486868f55d363bed\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\0a88e15c27fe8f45486868f55d363bed\core-1.1.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ffc87729ce788885345ff344302c6fd4\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ffc87729ce788885345ff344302c6fd4\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\0a88e15c27fe8f45486868f55d363bed\core-1.1.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:10:9-34
+	android:icon
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:11:9-43
+	android:name
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:9:9-57
+activity#com.astansia.queueless.MainActivity
+ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:12:9-40:20
+	android:launchMode
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:14:13-43
+	android:hardwareAccelerated
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:17:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:18:13-55
+	android:configChanges
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:16:13-163
+	android:theme
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:15:13-47
+	android:name
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:13:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:23:13-26:17
+	android:resource
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:25:15-52
+	android:name
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:24:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:32:13-35:17
+	android:resource
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:34:15-61
+	android:name
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:33:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:36:13-39:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:37:17-68
+	android:name
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:38:27-74
+meta-data#flutterEmbedding
+ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:43:9-45:33
+	android:value
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:45:13-30
+	android:name
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml:44:13-44
+uses-sdk
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\a7e80ada1653544e3c54a57d4677af7a\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\a7e80ada1653544e3c54a57d4677af7a\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\d666021c2157e78f4964020cb90e2acb\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\d666021c2157e78f4964020cb90e2acb\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ff3ccb31f4df291375de462f1e521d98\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ff3ccb31f4df291375de462f1e521d98\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\dea8bfb453b8fd887799972b8d776909\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\dea8bfb453b8fd887799972b8d776909\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\890eb7f36bf83c7d9e99c33658d412de\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\890eb7f36bf83c7d9e99c33658d412de\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\0a88e15c27fe8f45486868f55d363bed\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\0a88e15c27fe8f45486868f55d363bed\core-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\96ae7b809342492cd4828827073cb152\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\96ae7b809342492cd4828827073cb152\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\89296b996329c4d60a0b372b563f77bf\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\89296b996329c4d60a0b372b563f77bf\savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\6e9201a4f5b5fbe9ec33d3d731a410c9\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\6e9201a4f5b5fbe9ec33d3d731a410c9\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\16ca23f20530544a8f9e4f6b65379b7b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\16ca23f20530544a8f9e4f6b65379b7b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\c6d7e24e5aa09c9f08d37228d92c22be\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\c6d7e24e5aa09c9f08d37228d92c22be\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ffc87729ce788885345ff344302c6fd4\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\ffc87729ce788885345ff344302c6fd4\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\5e38ca2bd39f563dc72554fcc9d44a6a\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Ayush\.gradle\caches\transforms-2\files-2.1\5e38ca2bd39f563dc72554fcc9d44a6a\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\Users\Ayush\AndroidStudioProjects\Queue.less\queueless\android\app\src\debug\AndroidManifest.xml:6:22-64
