@@ -269,17 +269,20 @@ class _HomeFragmentState extends State<HomeFragment> {
                           shrinkWrap: true,
                           itemCount: 8,
                           itemBuilder: (context, i){
-                            return new Row(
-                              children: [
-                                Image.asset('assets/images/store.jpg',width: 64,height: 64,),
-                                SizedBox(width: 8,),
-                                Text(
-                                  'Shop Name',
-                                  style: TextStyle(
-                                      fontSize: 16
+                            return new InkWell(
+                              onTap: (){Navigator.pushNamed(context, '/products');},
+                              child: Row(
+                                children: [
+                                  Image.asset('assets/images/store.jpg',width: 64,height: 64,),
+                                  SizedBox(width: 8,),
+                                  Text(
+                                    'Shop Name',
+                                    style: TextStyle(
+                                        fontSize: 16
+                                    ),
                                   ),
-                                ),
-                              ],
+                                ],
+                              ),
                             );
                           },
                           separatorBuilder: (BuildContext context, int index) {
