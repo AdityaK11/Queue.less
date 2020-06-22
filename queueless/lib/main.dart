@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:queueless/screens/cart_page/cart_page.dart';
 import 'package:queueless/screens/checkout_page/checkout_page.dart';
 import 'package:queueless/screens/home_page/home_page.dart';
-import 'package:queueless/screens/login_page/login_page.dart';
+import 'package:queueless/screens/auth_page/auth_page.dart';
 import 'package:queueless/screens/order_details_page/order_details_page.dart';
 import 'package:queueless/screens/product_details_page/product_details_page.dart';
 import 'package:queueless/screens/products_page/products_page.dart';

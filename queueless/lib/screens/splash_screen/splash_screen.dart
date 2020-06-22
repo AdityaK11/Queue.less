@@ -1,5 +1,5 @@
 import 'dart:async';
-
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -20,7 +20,15 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
     controller.forward();
 
     Timer(Duration(seconds: 3), () {
-      Navigator.pushReplacementNamed(context, '/login');
+      FirebaseAuth.instance.currentUser().then((firebaseUser){
+        if(firebaseUser == null)
+        {
+          Navigator.pushReplacementNamed(context, '/login');
+        }
+        else{
+          Navigator.pushReplacementNamed(context, '/home');
+        }
+      });
     });
 
     super.initState();

@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class ProfileFragment extends StatefulWidget {
   @override
@@ -191,34 +192,82 @@ class _ProfileFragmentState extends State<ProfileFragment> {
 
                 ],
               ),
-              Row(
-                children: <Widget>[
+              InkWell(
+                onTap: (){
+                  showSignOutDialog(context);
+                },
+                child: Row(
+                  children: <Widget>[
+                    Expanded(
+                      child:Text('Log Out',
+                        style: TextStyle(
+                            fontFamily: 'Poppins',
+                            fontWeight: FontWeight.normal,
+                            fontSize: 14.0
+                        ),
+                      ),
 
-                  Expanded(
-                    child:Text('Log Out',
+                    ),
+                    Text('>',
                       style: TextStyle(
                           fontFamily: 'Poppins',
                           fontWeight: FontWeight.normal,
-                          fontSize: 14.0
+                          fontSize: 20.0
                       ),
                     ),
 
-                  ),
-                  Text('>',
-                    style: TextStyle(
-                        fontFamily: 'Poppins',
-                        fontWeight: FontWeight.normal,
-                        fontSize: 20.0
-                    ),
-                  ),
 
-
-                ],
+                  ],
+                ),
               ),
             ],
           ),
         ),
       ),
     );
+  }
+
+  void showSignOutDialog(BuildContext context) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return new AlertDialog(
+          shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.all(Radius.circular(10.0))),
+          title: new Text(
+            'Are you sure?',
+          ),
+          content: new Text(
+            'Do you want to logout',
+          ),
+          actions: <Widget>[
+            new FlatButton(
+              onPressed: () => Navigator.of(context).pop(false),
+              child: new Text(
+                'No',
+                style: TextStyle(
+                    color: Colors.indigoAccent),
+              ),
+            ),
+            new FlatButton(
+              onPressed: () {
+                Navigator.of(context).pop(false);
+                _signOut();
+              },
+              child: new Text(
+                'Yes',
+                style: TextStyle(
+                    color: Colors.indigoAccent),
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  _signOut() async {
+    await FirebaseAuth.instance.signOut();
+    Navigator.of(context).pushReplacementNamed('/login');
   }
 }
