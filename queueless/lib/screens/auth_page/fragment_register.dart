@@ -1,4 +1,6 @@
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -9,7 +11,7 @@ class RegisterFragment extends StatefulWidget {
 
 class _RegisterFragmentState extends State<RegisterFragment> {
 
-  String email,password,confirmPass;
+  String name,email,password,confirmPass;
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final TextEditingController _pass = TextEditingController();
   final TextEditingController _confirmPass = TextEditingController();
@@ -47,7 +49,7 @@ class _RegisterFragmentState extends State<RegisterFragment> {
                     }
                     return null;
                   },
-                  //onSaved: (input) => email=input,
+                  onSaved: (input) => name=input,
                   keyboardType: TextInputType.emailAddress,
                   decoration: new InputDecoration(
                     border: InputBorder.none,
@@ -169,9 +171,16 @@ class _RegisterFragmentState extends State<RegisterFragment> {
 
         AuthResult result = await auth.createUserWithEmailAndPassword(email: email, password: password);
         final FirebaseUser user = result.user;
+        final FirebaseDatabase database = FirebaseDatabase.instance;
 
         assert (user != null);
         assert (await user.getIdToken() != null);
+
+        database.reference().child('users').child(user.uid).set(<String, String>{
+          'name' : name,
+          'orders' : ''
+        });
+
         Navigator.of(context).pop(false);
         Navigator.pushNamed(context, '/home');
       }catch(e){
@@ -185,7 +194,7 @@ class _RegisterFragmentState extends State<RegisterFragment> {
                 'Error',
               ),
               content: new Text(
-                e.message,
+                e.toString(),
               ),
               actions: <Widget>[
                 new FlatButton(
